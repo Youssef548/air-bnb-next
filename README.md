@@ -1,4 +1,3 @@
-
 # nextjs-airbnb-clone
 
 # App Screenshots
@@ -52,6 +51,3 @@
 ## Listing Info Page
 
 ![listing](https://github.com/koolkishan/nextjs-airbnb-clone/assets/30298996/d1f3b96b-55d2-4ebb-8944-bf35238c3f0c)
-
-
-
