@@ -3,7 +3,7 @@ import Navbar from "./components/Navbar/Navbar";
 import ClientOnlyProps from "./components/ClientOnly";
 import Modal from "./components/Modlas/Modal";
 import RegisterModal from "./components/Modlas/RegisterModal";
-import ToasterProvider from "./components/providers/ToasterProvider";
+import ToasterProvider from "./providers/ToasterProvider";
 // import type { Metadata } from "next";
 
 export const metadata = {
