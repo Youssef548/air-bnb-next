@@ -11,6 +11,7 @@ import Modal from "./Modal";
 import Heading from "../Heading";
 import Input from "../Input";
 import { toast } from "react-hot-toast";
+import { signIn } from "next-auth/react";
 const RegisterModal = () => {
   const registerModal = useRegisterModal();
   const [isLoading, setIsLoading] = useState(false);
@@ -77,13 +78,13 @@ const RegisterModal = () => {
         outline
         label={"Continue with Google"}
         icon={FaGoogle}
-        onClick={() => {}}
+        onClick={() => signIn("google")}
       />{" "}
       <Button
         outline
         label={"Continue with Github"}
         icon={AiFillGithub}
-        onClick={() => {}}
+        onClick={() => signIn("github")}
       />
       <div
         className="
