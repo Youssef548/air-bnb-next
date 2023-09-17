@@ -48,7 +48,6 @@ const LoginModal = () => {
 
       if (callback?.error) {
         toast.error(callback.error);
-        
       }
     });
   };
@@ -111,7 +110,7 @@ const LoginModal = () => {
             className="text-neutral-800 
           cursor-pointer hover:underline"
           >
-            Log in
+            Sign up
           </div>
         </div>
       </div>
